@@ -1,0 +1,49 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav{
+	 width: 100%;
+	 background-color: lightgrey;
+	 padding:10px; 
+	 box-shadow: 2px 2px 2px grey;
+	 position: fixed;
+	 top:0px;
+	 left:0px;
+}
+
+.nav-item{
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.title{
+font-size: 10.4vw; 
+font-family: Arial Black, Arial Bold, sans-serif;
+color: lightgrey;
+margin-top: 75px;
+}
+ /*first define the parent, and then the item can be child's property*/
+.research{
+	display: flex;
+	flex-wrap: wrap; /*tells you that the content should wrap arund the next one, that is go to the next 行*/
+	 /*justify-content is horizontal, align-items is vertical*/
+	align-items: flex-end; /*want the flex as usable as possible, explore on Flex Froggy, css-tricks*/
+	padding: 20px;
+	font-size: 16px;
+}
+.research-item{
+	flex: 0 0 25% ;/* 20%差不多就是五个图片一行，33%就是三个，25就是4个，50%就是两个*/
+	padding: 20px;
+
+}
+.research-item img {
+	width:100%; /*加起来正好等于页面的宽度*/
+}
