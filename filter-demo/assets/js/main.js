@@ -1,35 +1,77 @@
 $(document).ready(function(){
 	console.log("I'm ready!");
 
-	$('.mario-item').click(function(){
+	$('.research-item').click(function(){
 		$(this).toggleClass('large');
 	});
 
-	$('.nav-item').click(function () {
-		$('.nav-item').removeClass('active');
-		$(this).addClass('active');
-	});
+	var hideAll = function(){
+		$('.research-item').addClass('hide');
+	};
+
 
 	$('.btn-all').click(function(){
 		$('.research-item').removeClass('hide');
 	});
-	
-	var hideAll = function(){
-		$(.'research-item').addClass('hide');
-	};
 
-	$('.btn-car').click(function(){
+
+
+	$('.btn-ds').click(function(){
 		hideAll();
-		$(.'car').removeClass('.hide');
+		
+		$('.item-ds').removeClass('hide');
 	});
 
-	$('.btn-tracking').click(function(){
+	$('.btn-mario').click(function(){
 		hideAll();
-		$('.tracking').removeClass('hide');
+		
+		$('.item-mario').removeClass('hide');
 	});
 
-	$('.btn-kinect').click(function(){
+	$('.btn-pokemon').click(function(){
 		hideAll();
-		$('.kinect').removeClass('hide');
-	})
+		
+		$('.item-pokemon').removeClass('hide');
+	});
+
+		$('.btn-nes').click(function(){
+		hideAll();
+		
+		$('.item-nes').removeClass('hide');
+	});
+
+
+		$('.btn-famicom').click(function(){
+		hideAll();
+		
+		$('.item-famicom').removeClass('hide');
+	});
+
+	$('.btn-atari').click(function(){
+		hideAll();
+		
+		$('.item-atari').removeClass('hide');
+	});
+
+		$('.btn-gameboy').click(function(){
+		hideAll();
+		
+		$('.item-gameboy').removeClass('hide');
+	});
+
+
+
+
+
+
+
+
+
+	var cards = $(".research-item");
+for(var i = 0; i < cards.length; i++){
+    var target = Math.floor(Math.random() * cards.length -1) + 1;
+    var target2 = Math.floor(Math.random() * cards.length -1) +1;
+    cards.eq(target).before(cards.eq(target2));
+}
+
 });

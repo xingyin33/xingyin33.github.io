@@ -1,10 +1,12 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color: black;
 }
 
 a {
 	color:red;
+
 }
 
 .nav{
@@ -32,6 +34,8 @@ position: fixed;
 bottom:0px;
 left:0px;
 padding:5px;
+border-top: 2px solid gray;
+padding: 10px;
 }
 .filter-item{
 	display: inline-block;
@@ -40,6 +44,7 @@ padding:5px;
 	background-color:lime;
 	padding:5px;
 	cursor:pointer;
+	border-radius: 5px;
 
 }
 .filter-header{
@@ -48,10 +53,15 @@ color: gray;
 }
 
 .title{
-font-size: 10.4vw; 
+width:100vw;
+height: 100vh;
 font-family: Arial Black, Arial Bold, sans-serif;
 color: lightgrey;
-margin-top: 75px;
+margin-top: 0px;
+}
+
+.title img {
+	width: 100%;
 }
 
 .sidenav{
@@ -69,13 +79,13 @@ margin-top: 75px;
 }
 
 .large {
-flex:0 0 66.666%;
-transition:2s;
+flex:0 0 25% !important;
+transition:0.5s;
 cursor:zoom-out;
 }
 
 .hide{
-	filter:blur(100px);
+	display: none;
 }
 
 
@@ -87,14 +97,57 @@ cursor:zoom-out;
 	align-items: flex-end; /*want the flex as usable as possible, explore on Flex Froggy, css-tricks*/
 	padding: 20px;
 	font-size: 16px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .research-item{
-	flex: 0 0 160px;/* 20%差不多就是五个图片一行，33%就是三个，25就是4个，50%就是两个*/
+	flex: 0 0 10%;/* 20%差不多就是五个图片一行，33%就是三个，25就是4个，50%就是两个*/
 	padding: 20px;
 	transition:2s;
 	cursor:zoom-in;
+	border-bottom: 10px solid gray;
 
 }
 .research-item img {
 	width:100%; /*加起来正好等于页面的宽度*/
+}
+
+
+.pixel {
+	width:15px;
+	height: 15px;
+	position: fixed;
+	z-index: 9;
+}
+
+.pixel img {
+	width:100%;
+}
+
+@keyframes pixel {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.p-1 {
+	top:500px;
+	left:100px;
+	animation:pixel 1s infinite;
+}
+
+.p-2 {
+	top:10px;
+	left:700px;
+	animation:pixel 0.5s infinite;
+}
+
+.p-3 {
+	top:100px;
+	left:200px;
+	animation:pixel 0.8s infinite;
 }
