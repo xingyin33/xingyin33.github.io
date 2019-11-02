@@ -2,6 +2,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 	background-color: black;
+
 }
 
 a {
@@ -51,7 +52,9 @@ padding: 10px;
 display: inline-block;
 color: gray;
 }
+.cursor{
 
+}
 .title{
 width:100vw;
 height: 100vh;
@@ -80,7 +83,7 @@ margin-top: 0px;
 
 .large {
 flex:0 0 25% !important;
-transition:0.5s;
+transition:0.3s;
 cursor:zoom-out;
 }
 
@@ -97,8 +100,9 @@ cursor:zoom-out;
 	align-items: flex-end; /*want the flex as usable as possible, explore on Flex Froggy, css-tricks*/
 	padding: 20px;
 	font-size: 16px;
-	margin-top: 100px;
+	margin-top: 0px;
 	margin-bottom: 100px;
+	cursor: url("http://24.media.tumblr.com/a8d91d9d6f197e126351464305f75dd7/tumblr_msitq5qMwW1sg2d49o1_1280.gif"), auto;
 }
 .research-item{
 	flex: 0 0 10%;/* 20%差不多就是五个图片一行，33%就是三个，25就是4个，50%就是两个*/
@@ -134,6 +138,30 @@ cursor:zoom-out;
 	}
 }
 
+@keyframes example{
+	0%{
+		left:500px; 
+	}
+	50%{
+		left:505px;
+	}
+	100%{
+		left:500px;
+	}
+}
+
+@keyframes apple{
+	0%{
+		left:805px; 
+	}
+	50%{
+		left:800px;
+	}
+	100%{
+		left:805px;
+	}
+}
+
 .p-1 {
 	top:500px;
 	left:100px;
@@ -141,8 +169,8 @@ cursor:zoom-out;
 }
 
 .p-2 {
-	top:10px;
-	left:700px;
+	top:700px;
+	left:1200px;
 	animation:pixel 0.5s infinite;
 }
 
@@ -150,4 +178,24 @@ cursor:zoom-out;
 	top:100px;
 	left:200px;
 	animation:pixel 0.8s infinite;
+}
+.p-4 {
+	top:300px;
+	left:1000px;
+	animation:apple 1.2s infinite;
+	width: 5%;
+}
+
+.p-5 {
+	top:500px;
+	left:400px;
+	animation:example 1s infinite;
+	width:3%;
+}
+
+.p-6 {
+	top:200px;
+	left:200px;
+	width:5%;
+
 }

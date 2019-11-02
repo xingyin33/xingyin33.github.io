@@ -58,7 +58,11 @@ $(document).ready(function(){
 		
 		$('.item-gameboy').removeClass('hide');
 	});
-
+		$('.btn-sega').click(function(){
+		hideAll();
+		
+		$('.item-sega').removeClass('hide');
+	});
 
 
 
