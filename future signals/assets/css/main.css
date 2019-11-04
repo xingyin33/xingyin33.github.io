@@ -24,12 +24,13 @@ a {
 }
 p{
 	margin: 30px auto;
+	line-height: 1.2;
 }
 
 .nav{
 	 width: 100%;
 	 background-color: lightgrey;
-	 padding:10px; 
+	 padding:10px;
 	 box-shadow: 2px 2px 2px grey;
 	 position: fixed;
 	 top:0px;
@@ -81,6 +82,7 @@ color: #fff;
 .cursor{
 
 }
+
 .title{
 width:100vw;
 height: 100vh;
@@ -166,7 +168,7 @@ cursor:zoom-out;
 
 @keyframes example{
 	0%{
-		left:500px; 
+		left:500px;
 	}
 	50%{
 		left:505px;
@@ -178,7 +180,7 @@ cursor:zoom-out;
 
 @keyframes apple{
 	0%{
-		left:805px; 
+		left:805px;
 	}
 	50%{
 		left:800px;
