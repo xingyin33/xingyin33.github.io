@@ -129,11 +129,21 @@ a {
 
 
 .about {
+	font-family: Futura, Helvetica,Arial,sans-serif;
 	margin-top: 100px;
 	text-align: left;
 	margin-left: 20px;
 	width: 75vw;
-	font-size: 40px;
+	font-size: 25px;
+	line-height: 1.2;
+	color:dimgray;
+	
+}
+.about h1{
+	margin-bottom:20px;
+	font-size:30px;
+	font-style: italic;
+	
 }
 
 input {
