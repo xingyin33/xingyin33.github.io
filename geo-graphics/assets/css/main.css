@@ -1,0 +1,682 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+.index{
+	width:100vw;
+	height: 100vh;
+	background-color: black;
+	color:gray;
+	font-size: 3vw;
+}
+.index-nav{
+	padding:20px;
+	
+}
+.index-image{
+	padding:10px;
+	width: 100%;
+
+}
+.index-image img{
+	margin-left: 3px;
+
+	width: 25%;
+}
+/* five */
+.five{
+	width:100vw;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.five img{
+	width:100vw;
+	height: 100vh;
+}
+/* five */
+.six{
+	width:100vw;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.six img{
+	width:100vw;
+	height: 100vh;
+}
+.fourteen{
+	width:100vw;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	position: fixed;
+	font-size: 50px;
+	color:lightblue;
+}
+
+.fourteen img{
+	width:50vw;
+
+	object-fit: contain;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+}
+.fourteen img:hover{
+	opacity: 0;
+}
+/* finger */
+/*background color: lime*/
+/*background color: cyan*/
+/*background color: blue*/
+/*background color: red*/
+/*background color: */
+/*background color: */
+
+.finger {
+	width: 100vw;
+	height: 100vh;
+}
+.finger img{
+	width: 100%;
+	height:100vh;
+	object-fit: contain;
+
+}
+
+.pattern{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: -1;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+.stripe{
+	width: 100%;
+	height: 50%;
+}
+.s-green{
+	background-color: green;
+}
+.s-blue{
+	background-color: blue;
+}
+/* two */
+.two {
+	width: 100vw;
+	height: 100vh;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+}
+.two img{
+	width: 100vw;
+	height: 100vh;
+}
+
+.relative {
+			position: relative;
+			width:450px;
+			height:450px;
+			margin-left:200px;
+			background-color:#fdf581;
+		}
+.absolute {
+			position: absolute;
+			bottom:10px;
+			right:50px;
+			width:100px;
+			height:100px;
+			background-color:#0272be;}
+
+.box{
+	width:100vw;
+	height: 100vh;
+	
+display: inline-block;
+animation-name:colourUG;
+animation-duration: 1000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate;
+align-items:center;
+  justify-content: center;
+  position:fixed;
+}
+@keyframes colourUG{
+	from {
+   background-color: pink;
+  }
+  
+  to {
+  background-color: red;
+  }
+}
+.drag-image{
+align-items:center;
+  justify-content: center;
+  position:fixed;
+    width: 300px;
+    height: auto;
+  	cursor: move;
+  	padding: 0px;
+  	position: relative;
+  	font-size: 50px;
+  	color:yellow;
+
+}
+.drag-image img{
+	width: 50vw;
+}
+.image-1 {
+	left: 614px;
+    top: -1134px;
+}
+
+
+.bg-red{
+	background-color: red;
+}
+.eleven {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.text {
+	width:100vw;
+  height:100vh;
+  font-family:helvetica, arial;
+  font-size:22vw;
+  color:white;
+  overflow: hidden;
+}
+
+.title {
+	width: 100vw;
+	height: 100vh;
+	font-size: 24vw;
+	text-align: center;
+	overflow: hidden;
+	background-color: cyan;
+	color:white;
+}
+
+.title-2 img{
+	width: 30vw;
+}
+
+.thirteen{
+	width: 100vw;
+	height: 100vh;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position:relative;
+	overflow: hidden;
+}
+.thirteen img{
+
+	width: 50%;
+	animation-name: example;
+  animation-duration: 4s;
+  position:relative;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:100px; top:100px;}
+  75%  { left:0px; top:100px;}
+  100% { left:0px; top:0px;}
+}
+
+.fifteen{
+	width: 100vw;
+	height: 100vh;
+	background-color: purple;
+}
+.fifteen img{
+	width:40vw;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.fifteen-text{
+	position: fixed;
+			bottom:0px;
+			right:10px;
+			background: red;
+			color:yellow;
+}
+
+.sixteen{
+	width: 100vw;
+	height: 100vh;
+	background-color: skyblue;
+	float: left;
+  width: 50%;
+  padding: 5px;
+}
+.sixteen img{
+	width:40vw;
+	display: block;
+	margin-left:auto;
+	position: fixed;
+	justify-content: center;
+	align-content: center;
+	background-color: purple;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+.sixteen-text{
+	font-size: 20vw;
+	position: fixed;
+			bottom:0px;
+			right:10px;
+		color:yellow;
+}
+.seventeen-text{
+color: blue;
+background-color: yellow;
+text-align: center;
+font-size: 125px;
+ border: 5px solid black;
+}
+.seventeen{
+	width: 100vw;
+	height:100vh;
+	color: white;
+	background-color: orange;
+	border: 5px solid black;
+	margin-top: 10px;
+
+}
+.column {
+
+  float: left;
+  width: 33%;
+  padding: 10px;
+
+  
+}
+
+/* Clear floats after the columns */
+.seventeen:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.eighteen{
+	width: 100vw;
+	height: 100vh;
+	background-color: green;
+	float: left;
+  width: 50%;
+  padding: 5px;
+}
+.eighteen img{
+	width:40vw;
+	display: block;
+	margin-left:auto;
+	position: fixed;
+	justify-content: center;
+	align-content: center;
+	background-color: white;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+ .eighteen-text{
+	font-size: 25vw;
+	position: fixed;
+			bottom:0px;
+			right:10px;
+		color:red;
+		text-align: end;
+		
+}
+
+.nineteen{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height:100vh;
+	backface-visibility: visible;
+	background-color: purple;
+}
+.nineteen img{
+	backface-visibility: visible;
+	width:400px;
+	height: 400px;
+
+	animation:rotateAnimation 2s  infinite;
+}
+@keyframes rotateAnimation {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(360deg);}
+}
+.twenty{
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+}
+.onee{
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+}
+.twenty-left {
+	width:50%;
+	height: 100vh;
+	background-color: yellow;
+}
+.onee-left {
+	width:50%;
+	height: 100vh;
+	background-color: darkgreen;
+}
+.twenty-left img{
+	
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+	border:10px solid;
+	border-right-style: dashed;
+	color:brown;
+/* 	object-fit: cover;   */
+}
+.onee-left img{
+	
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+	
+/* 	object-fit: cover;   */
+}
+.onee-right img{
+	
+	width:50%;
+	height: 100%;
+	position:fixed;
+	transform:rotate(180deg);
+	object-fit: contain;
+	
+	color:lime;
+	background-color: green;
+/* 	object-fit: cover;   */
+}
+.twenty-right {
+	width:50%;
+	height: 100vh;
+	background-color: blue;
+	color:lightblue;
+	border:10px solid;
+	border-left-style:dashed;
+	font-size: 5vw;
+	padding:10px;
+	overflow: hidden;
+  font-family: Helvetica,Arial,sans-serif;
+}
+/* eight */
+
+.eight{
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+}
+.eight img{
+
+	background-color: transparent;
+	animation-name: growUG;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+@keyframes growUG{
+	0%{width: 0;}
+	100%{width: 100%;}
+}
+
+
+/*3*/
+
+.three{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.three-left{
+	width: 50%;
+	height: 100vh;
+	
+}
+.three-left img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.three-right{
+	display: inline-block;
+	width: 50%;
+	height: 100vh;
+	background-color: red;
+	margin:0 auto;
+	font-size: 20vw;
+	color:white;
+	overflow: hidden;
+	font-family: Helvatica, Arial, sans-serif;
+}
+
+
+/*7 */
+
+.seven{
+	width: 100vw;
+	height: 100vh;
+	background-color: #0c1682;
+	overflow: hidden;
+	
+}
+.HW {
+	position: absolute;
+	top:0px;
+	left:0px;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	float:right;
+	align-items: center;
+	
+}
+.HW-text{
+	font-family: Helvatica, Arial, sans-serif;
+	border:2px solid;
+	border-radius: 0px;
+	font-size: 1vw;
+	color:lavender;
+	padding:12px;
+	float:right;
+    margin:70px;  
+}
+.seven img{
+	width: 40%;
+	margin-top: 130px;
+	margin-left: 330px;
+	object-fit: cover;
+	background-color: transparent;
+	animation:spin 34s linear infinite;
+}
+
+@keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+
+
+
+/* flag1 */
+.one{
+	 margin: 0 auto;
+ width: 100vw;
+
+}
+.one-leftcolumn{
+	color: #333;
+ 
+ background:#79bfe9;
+ margin: 0px 0px 0px 0px;
+
+ height: 100vh;
+ width: 20vw;
+ float: left;
+
+}
+.one-leftmiddle { 
+ color: #333;
+ 
+ background:#aa68ab;
+ margin: 0px 0px 0px 0px;
+
+ height: 100vh;
+ width: 20vw;
+ float: left;
+}
+.one-rightmiddle { 
+ color: #333;
+ 
+ background:#70bdb7;
+ margin: 0px 0px 0px 0px;
+
+ height: 100vh;
+ width: 20vw;
+ float: left;
+}
+.one-rightcolumn { 
+ color: #333;
+ 
+ background:#2b3484;
+ margin: 0px 0px 0px 0px;
+ 
+ height: 100vh;
+ width: 20vw;
+ float: left;
+}
+.one-rightrightcolumn { 
+ color: #333;
+ 
+ background:#6460ab;
+ margin: 0px 0px 0px 0px;
+ 
+ height: 100vh;
+ width: 20vw;
+ float: left;
+}
+/*checkers*/
+
+.checkers{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap; /* 这句话的意思就是本来所有的都在一行，现在变成了两行*/
+
+}
+.checkers-black{
+	flex:0 0 50%;
+	height: 50vh;
+	background-image: linear-gradient(lime,transparent);
+}
+.checkers-white{
+	flex:0 0 50%;
+	height: 50vh;
+	background-color: white;
+
+}
+.checkers-black2{
+	flex:0 0 50%;
+	height: 50vh;
+	background-image: linear-gradient(transparent, lime);
+}
+.checkers-type{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed; /*如果没有这三句话的话，那就要scroll down才能看到，有了这三句话，就重叠在checker上面*/
+	top:0;
+	left: 0;
+}
+.checkers-text{
+	font-size: 20vw;
+	color:lime;
+	background-color: white;
+	border: 2vw dashed lime; /* can be solid or dashed*/
+	border-radius: 50%;/*从正方形变成了圆形*/
+	padding: 5vw; /*往外扩了5个单位，本来是很小的圆形*/
+
+}
+
+.user{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: top;
+	justify-content: flex-end;
+
+}
+.avatar{
+	width:10vw;
+	height: 10vw;
+	background-color: purple;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+.letter{
+color:white;
+font-size:10vw;
+
+}
+
