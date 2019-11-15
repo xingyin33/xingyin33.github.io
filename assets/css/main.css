@@ -6,7 +6,15 @@ body {
 a {
 	color:red;
 }
+body
+{
+	font-family: sans-serif;
+}
 
+h1, h2, a, a:active
+{
+	color: #3DCCEE
+}
 /* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
 
 /* EXAMPLE CODE PLEASE REMOVE */
