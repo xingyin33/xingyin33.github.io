@@ -4,7 +4,8 @@ body {
 }
 
 a {
-	color:red;
+	color:gray;
+	text-decoration: none;
 }
 .index{
 	width:100vw;
@@ -27,6 +28,7 @@ a {
 
 	width: 25%;
 }
+
 /* five */
 .five{
 	width:100vw;
