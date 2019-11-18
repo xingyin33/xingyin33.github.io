@@ -171,7 +171,16 @@ dl.right_image dd
 	text-align: center;
 }
 
-
+.display img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+}
+.displaytwo img{
+	width: 50%;
+	display: block;
+	margin-right: auto;
+}
 /* Dropdown Button */
 .dropbtn {
 	background-color: transparent;
