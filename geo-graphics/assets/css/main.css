@@ -62,7 +62,45 @@ a {
 	font-size: 50px;
 	color:lightblue;
 }
+.no-space{
+	width: 0px;
+	height: 0px;
+}
+.geo-div-img{
+	position: relative;
+    left: 50px;
+    bottom: 150px;
+}
+.geo-div-img1{
+	position: relative;
+    left: 50px;
+    bottom: -550px;
+}
 
+.geo-div-img2{
+	position: relative;
+    left: 50px;
+    bottom: 250px;
+}
+
+.geo-div-img3{
+	position: relative;
+    left: 50px;
+    bottom: -550px;
+}
+
+
+.geo-div-img4{
+	position: relative;
+    left: 50px;
+    bottom: -550px;
+}
+
+.geo-div-img5{
+	position: relative;
+    left: 50px;
+    bottom: -550px;
+}
 .fourteen img{
 	width:50vw;
 
