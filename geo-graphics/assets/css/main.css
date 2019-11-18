@@ -356,6 +356,7 @@ font-size: 125px;
 	background-color: orange;
 	border: 5px solid black;
 	margin-top: 10px;
+	overflow: hidden;
 
 }
 .column {
