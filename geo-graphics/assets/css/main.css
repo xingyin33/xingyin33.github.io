@@ -86,9 +86,9 @@ a {
 }
 
 .geo-div-img3{
-	position: relative;
+	position: fixed;
     left: 50px;
-    bottom: -550px;
+    bottom: 50px;
 }
 
 
