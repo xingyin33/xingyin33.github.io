@@ -58,9 +58,11 @@ div#logo
 	width: 66%;
 	height: 83px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 div#logo img{
-	width:30%;
+	width:20%;
+	
 }
 ul#menu
 {
@@ -76,7 +78,7 @@ ul#menu li
 	text-align:center;
 	color: #3DCCEE;
 	padding: 0px;
-	width: 100px;
+	width: 150px;
 	float: left;
 }
 
@@ -222,7 +224,7 @@ dl.right_image dd
 	cursor: pointer;
 	text-align:center;
 	color: #3DCCEE;
-	width: 120px;
+	width: 200px;
 	padding: 0;
 	display: block;
 }
