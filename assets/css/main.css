@@ -6,6 +6,14 @@ a {
 body
 {
 	font-family: sans-serif;
+	text-align: center;
+}
+.award{
+	text-align:left;
+	margin-top: 20px;
+	padding: 5px;
+	line-height: 1.2;
+	
 }
 
 h1, h2, a, a:active
@@ -20,7 +28,7 @@ h1, h2, a, a:active
 div#logo
 {
 	background-image: url('Logo_Background.gif');
-	background-color: #3DCCEE;
+	background-color: #f5f4f0;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -112,7 +120,7 @@ div#body
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	background: #ffffff;
+	background: #f5f4f0;
 	border-color: grey;
 	width: 63%;
 	margin: auto;
@@ -258,4 +266,12 @@ img.opa:hover {opacity: 0.7;}
 img.round {
 	border-radius: 20%;
 }
+.profile img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+
 
