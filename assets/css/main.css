@@ -51,6 +51,12 @@ body
   margin-right: auto;
   width: 50%;
 }
+.mySlides img{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .contain h1{
 	margin-bottom: 10px;
 	font-size:80%;
