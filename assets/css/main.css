@@ -114,7 +114,7 @@ ul#menu
   margin: 5em auto;
   list-style-type:none;
   font-size: 12px;
-  font-family: Verdana;
+  font-family: Andale Mono,Verdana;
 }
 
 ul#menu li
@@ -263,7 +263,7 @@ dl.right_image dd
 	background-color: transparent;
 	color: white;
 	font-size: 12px;
-	font-family: Verdana;
+	font-family: Andale Mono,Verdana;
 	border: none;
 	cursor: pointer;
 	text-align:center;
