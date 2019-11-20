@@ -9,8 +9,8 @@ body
 	text-align: center;
 }
 .intro{
-	font-family: Verdana;
-	color:black;
+	font-family: Andale Mono, Verdana;
+	color:lightgray;
 	margin-bottom: 20px;
 	margin-top: 40px;
 	line-height: 1.2;
