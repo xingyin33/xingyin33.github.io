@@ -37,6 +37,37 @@ body
 	color: gray;
 	font-size:70%;
 }
+.contain{
+	text-align: center;
+
+	margin-top: 20px;
+	padding: 5px;
+	line-height: 1.2;
+	font-family: Helvetica;
+}
+.contain h1{
+	margin-bottom: 10px;
+	font-size:80%;
+	font-weight: bold;
+}
+
+#contain-para{
+	padding:1.5px;
+	color: gray;
+	font-size:70%;
+}
+.goback{
+	height:30vh;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 2em;
+
+}
+
+.nav{
+	text-align: right;
+	margin-right:2em;
+}
 h1, h2, a, a:active
 {
 	color: #3DCCEE
